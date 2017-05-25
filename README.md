@@ -7,3 +7,6 @@ for styling info.
 
 [Semantic-UI](https://semantic-ui.com ) is used as a UI framework.
 
+
+
+Comps are provided in the top level directory.
