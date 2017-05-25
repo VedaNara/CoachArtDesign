@@ -1,0 +1,85 @@
+
+.grouped.fields {
+  float: left;
+  padding-right: 20px;
+}
+section {
+  display: block;  
+  clear: both;
+  width: 100%;
+}
+.signup-content {
+  max-width: 550px;
+  display:block;
+  margin: 20px auto 0px auto;
+  background-color: #fff;
+}
+.signup-content h2 {
+  text-align: center;  
+}
+
+
+.ui.form .field {
+  position: relative;
+  padding-top: 8px;
+  margin-bottom: 6px;
+}
+.ui.form .field>label {
+  font-weight: bold;
+
+  
+}
+.ui.button {
+  background-color: #66c7ef;
+  color: #fff;
+  width: 100%;
+  font-size: 18px;
+}
+input:focus ~ .floating-label,
+input:not(:focus):valid ~ .floating-label{
+  top: -2px;
+  bottom: 10px;
+  left: 14px;
+  font-size: 8px;
+  opacity: 1;
+  font-size: 12px !important;
+  cursor: pointer;
+}
+
+.inputText {
+  font-size: 14px;
+  width: 200px;
+  height: 45px;
+}
+
+
+.floating-label {
+  position: absolute;
+  pointer-events: none;
+  left: 14px;
+  top: 20px;
+  opacity: 0.5;
+  transition: 0.2s ease all;
+  padding: 0 2px;
+  font-size: 16px !important;
+  background-color: #fff;
+  max-height: 16px;
+}
+
+.signin-link {
+  border-top: 1px solid #222;
+  margin-top: 36px;
+  padding-top: 36px;
+  font-size: 16px;
+  text-align: center;
+}
+.signin-link a {
+  color: #66c7ef;
+  cursor: pointer;  
+}
+.signin-link a:hover {
+  cursor: pointer;  
+  text-decoration: underline;
+}
+
+
